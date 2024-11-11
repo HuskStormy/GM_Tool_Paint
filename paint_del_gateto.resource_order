@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"sprite","order":10,"path":"folders/sprite.yy",},
     {"name":"icon","order":6,"path":"folders/icon.yy",},
+    {"name":"sprite","order":10,"path":"folders/sprite.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"control","order":5,"path":"objects/control/control.yy",},

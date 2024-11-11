@@ -1,6 +1,11 @@
+	var _x = 32;
+	var _y = 72;
+	var _w = room_width	-_x;
+	var _h = room_height-_y;
+
 // En el Draw Event
 if (surface_exists(_draw_surface)) {
-    draw_surface(_draw_surface, 0, 0);
+    draw_surface(_draw_surface, 0+_x, 0+_y);
     
     // Dibujar el cursor del borrador cuando está activo
     if (is_erasing) {

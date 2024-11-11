@@ -1,3 +1,7 @@
+function scr_initGUI(){
+	global.bottongui_point		= false;
+}
+
 
 function scr_bottonGUI_create(_name = "meow", _x, _y, _w, _h, _icon=pointer_null,_function=function(){show_message("botton presionado")}){
 	return {
@@ -23,7 +27,7 @@ function scr_bottonGUI_step(_bottonGUI_id){
 	
 	if (point){
 		b.point_mouse = true;
-		global.bottongui_point++;
+		global.bottongui_point=100;
 		}
 	else b.point_mouse = false;	
 	
@@ -32,7 +36,7 @@ function scr_bottonGUI_step(_bottonGUI_id){
 	
 	b.sum_select = sign(b.point_mouse + b.select);
 	
-	
+	show_debug_message(global.bottongui_point)
 	
 	if (b.point_mouse){
 		if (mouse_check_button_released(mb_left))
@@ -120,12 +124,12 @@ function scr_scrollGUI_step(_scrollGUI_id) {
     s.x2 = s.x + (s.w / 2);
     var _mx = mouse_x;
 	var _my = mouse_y;
-	show_debug_message(string(s.x1)+"-"+string(s.x2)+"-"+string(s.y)+"-"+string(s.h)+"-")
     // Check for mouse interaction
     var point = point_in_rectangle(_mx, _my, s.x1, s.y, s.x2, s.y + s.h);
     
     if (point && mouse_check_button_pressed(mb_left)) {
         s.select = true;
+		
     }
     
     if (mouse_check_button_released(mb_left)) {
@@ -138,11 +142,11 @@ function scr_scrollGUI_step(_scrollGUI_id) {
         s.val = s.x1 - mouse_val;
         // Normalize value between min_val and max_val
         s.val = clamp(s.val, -s.w, 0);
-        
-        // Set global GUI focus
-        global.bottongui_point = 100;
+		global.bottongui_point=100;
     }
     
+	if (point) global.bottongui_point=100;
+	
     return s;
 }
 
