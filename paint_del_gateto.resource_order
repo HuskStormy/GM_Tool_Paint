@@ -1,0 +1,16 @@
+{
+  "FolderOrderSettings":[
+    {"name":"icon","order":6,"path":"folders/icon.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"barr","order":7,"path":"objects/barr/barr.yy",},
+    {"name":"control","order":5,"path":"objects/control/control.yy",},
+    {"name":"obj_bar","order":4,"path":"objects/obj_bar/obj_bar.yy",},
+    {"name":"Object1","order":1,"path":"objects/Object1/Object1.yy",},
+    {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
+    {"name":"scr_bottonGUI","order":3,"path":"scripts/scr_bottonGUI/scr_bottonGUI.yy",},
+    {"name":"shd_bar","order":9,"path":"shaders/shd_bar/shd_bar.yy",},
+    {"name":"spr_icon_borrador","order":1,"path":"sprites/spr_icon_borrador/spr_icon_borrador.yy",},
+    {"name":"spr_tex_bar","order":8,"path":"sprites/spr_tex_bar/spr_tex_bar.yy",},
+  ],
+}

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_bar",
+  "name":"shd_bar",
+  "parent":{
+    "name":"paint_del_gateto",
+    "path":"paint_del_gateto.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

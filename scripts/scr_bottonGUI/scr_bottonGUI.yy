@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_bottonGUI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_bottonGUI",
+  "parent":{
+    "name":"paint_del_gateto",
+    "path":"paint_del_gateto.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

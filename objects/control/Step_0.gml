@@ -1,0 +1,1 @@
+global.bottongui_point = clamp(global.bottongui_point-1,0,2);
