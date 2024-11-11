@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"sprite","folderPath":"folders/sprite.yy","name":"sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"icon","folderPath":"folders/icon.yy","name":"icon","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[],
@@ -20,11 +21,10 @@
   },
   "name":"paint_del_gateto",
   "resources":[
-    {"id":{"name":"barr","path":"objects/barr/barr.yy",},},
     {"id":{"name":"control","path":"objects/control/control.yy",},},
-    {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_canvas","path":"objects/obj_canvas/obj_canvas.yy",},},
+    {"id":{"name":"obj_menuGUI","path":"objects/obj_menuGUI/obj_menuGUI.yy",},},
+    {"id":{"name":"rm_canvas","path":"rooms/rm_canvas/rm_canvas.yy",},},
     {"id":{"name":"scr_bottonGUI","path":"scripts/scr_bottonGUI/scr_bottonGUI.yy",},},
     {"id":{"name":"shd_bar","path":"shaders/shd_bar/shd_bar.yy",},},
     {"id":{"name":"spr_icon_borrador","path":"sprites/spr_icon_borrador/spr_icon_borrador.yy",},},
@@ -34,7 +34,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_canvas","path":"rooms/rm_canvas/rm_canvas.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

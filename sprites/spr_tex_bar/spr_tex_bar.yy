@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"paint_del_gateto",
-    "path":"paint_del_gateto.yyp",
+    "name":"sprite",
+    "path":"folders/sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -43,15 +43,15 @@
 //    }
 //}
 
-brush_size = scr_scrollGUI_get_value(obj_bar.sl_bar_size)*60;
-eraser_size = scr_scrollGUI_get_value(obj_bar.sl_bar_size)*60;
+brush_size = scr_scrollGUI_get_value(obj_menuGUI.sl_bar_size)*60;
+eraser_size = scr_scrollGUI_get_value(obj_menuGUI.sl_bar_size)*60;
 
 
 
-if (instance_exists(obj_bar)) brush_color = make_color_hsv(
-	scr_scrollGUI_get_value(obj_bar.sl_bar_color)*255,
-	scr_scrollGUI_get_value(obj_bar.sl_bar_satur)*255,
-	scr_scrollGUI_get_value(obj_bar.sl_bar_value)*255);
+if (instance_exists(obj_menuGUI)) brush_color = make_color_hsv(
+	scr_scrollGUI_get_value(obj_menuGUI.sl_bar_color)*255,
+	scr_scrollGUI_get_value(obj_menuGUI.sl_bar_satur)*255,
+	scr_scrollGUI_get_value(obj_menuGUI.sl_bar_value)*255);
 
 
 if (variable_global_exists("pincel") and mouse_check_button(mb_left) and !scr_bottonGUI_get_fromMouse()){
