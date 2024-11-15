@@ -36,9 +36,11 @@ void main()
     vec4 color;
     
     if (_var == 0) color = vec4(0.0, 0.0, 0.0, 0.2);
-    else if (_var == 1) color = hueGradient(v_vTexcoord.x);
-    else if (_var == 2) color = saturationGradient(v_vTexcoord.x);
-    else if (_var == 3) color = valueGradient(v_vTexcoord.x);
+    else if (_var == 1) color = hueGradient(v_vTexcoord.y);
+    else if (_var == 2) color = saturationGradient(v_vTexcoord.y);
+    else if (_var == 3) color = valueGradient(v_vTexcoord.y);
+	
+	//color = vec4(v_vTexcoord.x, v_vTexcoord.x, v_vTexcoord.x, 1.);
     
-    gl_FragColor = v_vColour * color;
+    gl_FragColor = color;
 }

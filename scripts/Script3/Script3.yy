@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script3",
+  "parent":{
+    "name":"paint_del_gateto",
+    "path":"paint_del_gateto.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

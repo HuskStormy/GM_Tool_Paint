@@ -160,7 +160,7 @@ function scr_scrollGUI_draw(_scrollGUI_id, input = false, _type = TYPEGUI_TEXTO,
 	shader_set(shd_bar);
 		shader_set_uniform_i(shader_get_uniform(shd_bar,"_var"), _id_shd);
 		shader_set_uniform_f(shader_get_uniform(shd_bar,"color_base"), abs(_val_shd) );
-		draw_sprite_stretched(spr_tex_bar,0,s.x1,s.y,s.w,s.h);
+		draw_sprite_stretched(spr_tex,0,s.x1,s.y,s.w,s.h);
 	shader_reset()
 	//draw_rectangle(s.x1, s.y, s.x2, s.y + s.h, false);
     
