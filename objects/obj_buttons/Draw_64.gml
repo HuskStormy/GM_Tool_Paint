@@ -1,6 +1,7 @@
-button_gui_draw(btt_pincel_lapiz);
-button_gui_draw(btt_pincel_borra);
-button_gui_draw(btt_pincel_moveC);
+button_gui_draw(btt_pincel_lapiz, spr_ico_lapiz);
+button_gui_draw(btt_pincel_borra, spr_ico_borrar);
+button_gui_draw(btt_pincel_moveC, spr_ico_mano);
+button_gui_draw(btt_pincel_cubet, spr_ico_cubeta);
 
 scroll_gui_draw(scr_pincel_size);
 

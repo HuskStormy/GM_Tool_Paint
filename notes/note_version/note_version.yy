@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"note_version",
+  "name":"note_version",
+  "parent":{
+    "name":"paint_del_gateto",
+    "path":"paint_del_gateto.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

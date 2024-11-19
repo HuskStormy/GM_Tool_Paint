@@ -1,0 +1,11 @@
+-version 0.3
+	heramientas
+	-lapiz
+	-borrador
+	-move camara
+	
+	future
+	-cubeta de pintura
+	-menu
+	-button save
+	-layer

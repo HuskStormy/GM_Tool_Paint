@@ -1,6 +1,7 @@
 button_gui_step(btt_pincel_lapiz);
 button_gui_step(btt_pincel_borra);
 button_gui_step(btt_pincel_moveC);
+button_gui_step(btt_pincel_cubet);
 
 
 var _scr_x = 0;
@@ -39,6 +40,7 @@ btt_gui_from_mouse = sign
 	(
 		button_gui_get_from_in_mouse(btt_pincel_lapiz) + 
 		button_gui_get_from_in_mouse(btt_pincel_borra) +
+		button_gui_get_from_in_mouse(btt_pincel_cubet) +
 		scroll_gui_get_from_in_mouse(scr_pincel_size)  +
 		scroll_gui_get_from_in_mouse(scr_pincel_HUE)  +
 		scroll_gui_get_from_in_mouse(scr_pincel_SATR)  +

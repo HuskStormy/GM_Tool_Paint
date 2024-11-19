@@ -46,7 +46,19 @@ if (mouse.press and !obj_buttons.btt_gui_from_mouse){
 			gpu_set_blendmode(bm_normal);
 			draw_set_alpha(1);
 		surface_reset_target();
+	}else if (pincel.type == PINCEL_CUBETA){
+		//var _col	= my_get_color(surf_canvas, mouse.x, mouse.y);
+		
+		//instance_create_depth(mouse.x, mouse.y, 0, obj_pixelprog,{
+		//	col		: _col[COL],	
+		//	alpha	: _col[ALPHA],	
+		//	blue	: _col[BLUE],
+		//	green	: _col[GREED],
+		//	red		: _col[RED],
+		//	color_act : other.pincel.color
+		//});
 	}
+	
 }
 
 

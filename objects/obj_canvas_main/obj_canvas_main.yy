@@ -13,8 +13,8 @@
   "name":"obj_canvas_main",
   "overriddenProperties":[],
   "parent":{
-    "name":"paint_del_gateto",
-    "path":"paint_del_gateto.yyp",
+    "name":"objetos",
+    "path":"folders/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

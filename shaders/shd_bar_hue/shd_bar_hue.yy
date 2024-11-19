@@ -3,8 +3,8 @@
   "%Name":"shd_bar_hue",
   "name":"shd_bar_hue",
   "parent":{
-    "name":"paint_del_gateto",
-    "path":"paint_del_gateto.yyp",
+    "name":"shaders",
+    "path":"folders/shaders.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",
